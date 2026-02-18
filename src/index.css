@@ -5,13 +5,19 @@
 @theme {
   --color-principal: #ea580c; /* Naranja amanecer (orange-600) */
   --color-secundario: #52525b; /* Gris piedra para detalles (zinc-600) */
-  --color-texto: #18181b; /* Roca volcánica, casi negro para máxima legibilidad (zinc-900) */
+  --color-texto: #18181b; /* Roca volcánica,(zinc-900) */
   --color-fondo: #fafafa; /* Blanco roto/arena clara (neutral-50) */
   --font-sans: "Inter", sans-serif;
 }
 
 body {
-  @apply bg-fondo text-texto font-sans antialiased;
+  body {
+    /* las variables nativas que Tailwind v4 */
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased; /* Suaviza los bordes de la fuente */
+  }
 }
 
 /* Micro-animación para el componente Story */
