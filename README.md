@@ -1,6 +1,8 @@
 # 🚀 Desde Cero | Plataforma de Recursos
+(actualmente en desarrollo)
 
-Plataforma desarrollada en React para compartir recursos gratuitos de desarrollo personal, dinero y formación. Creada con un propósito real y un enfoque en código limpio.
+Plataforma desarrollada en React para compartir recursos gratuitos de desarrollo personal. 
+Creada con un propósito real y un enfoque en código limpio.
 
 ## 🛠️ Stack Tecnológico
 
