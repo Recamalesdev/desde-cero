@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+/* Definición del tema personalizado para Tailwind v4 */
+@theme {
+  --color-principal: #ea580c; /* Naranja amanecer (orange-600) */
+  --color-secundario: #52525b; /* Gris piedra para detalles (zinc-600) */
+  --color-texto: #18181b; /* Roca volcánica, casi negro para máxima legibilidad (zinc-900) */
+  --color-fondo: #fafafa; /* Blanco roto/arena clara (neutral-50) */
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-fondo text-texto font-sans antialiased;
+}
+
+/* Micro-animación para el componente Story */
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
