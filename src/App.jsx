@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Story from "./components/Story";
 import Recursos from "./pages/Recursos";
+import Progress from "./components/Progress";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             element={
               <>
                 <Hero />
+                <Progress />
                 <Story />
               </>
             }
