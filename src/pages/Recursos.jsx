@@ -100,8 +100,8 @@ export default function Recursos() {
           </div>
           <div className="shrink-0 w-full md:w-auto">
             <a
-              href="./mapa-desde-cero.pdf"
-              download="/mapa-desde-cero.pdf"
+              href="/mapa-desde-cero.pdf"
+              download="Mapa-Desde-Cero-Guia-Inicial.pdf"
               className="flex w-full items-center justify-center rounded-lg bg-principal px-8 py-4 font-bold text-white transition-all hover:-translate-y-1 hover:bg-orange-600 hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-principal focus:ring-offset-2 focus:ring-offset-zinc-900"
             >
               Descargar Mapa Gratis ↓
